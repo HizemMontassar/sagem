@@ -1,0 +1,121 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: white;
+}
+
+
+#menu
+{
+    margin: 0;
+    padding: 0;
+    height: 5.3%;
+    overflow: auto;
+    background-color: cornflowerblue;
+}
+li
+{
+    display:block;
+    width: 252;
+    float:left;
+    border: 5px ;
+}
+li a
+{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+li a:hover
+{
+    background-color: white;
+    color: cornflowerblue;
+}
+table   
+{
+    margin-left: 3%;
+    width: 50%;
+}
+#titre
+{
+    background-color: yellowgreen;
+    text-align: center;
+    color:azure;
+    height: 50;
+    
+}
+td
+{
+    text-align: center;
+}   
+fieldset
+{
+    margin: 7%;
+    max-width: 40%;
+    padding: 3%;
+    margin-left: 28%;
+}
+#buttonDemande
+{
+    
+    margin-left: 39%;
+    margin-top: 7%;
+    background-color: grey;
+    border: 0;
+    padding: 10px;
+    
+}
+
+#btnExport
+{
+    
+    margin-left: 3%;
+    margin-top: 4%;
+    background-color:   green;
+    border: 0;
+    padding: 13px;
+    color: white;
+    
+}
+.dropbtn {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  height: 0%;
+  width: 200px;
+}
+
+.dropdown {
+  position: none;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: cornflowerblue;
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:white;color: cornflowerblue}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;color: cornflowerblue}
